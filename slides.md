@@ -126,7 +126,7 @@ transition: slide-left
 
 :: content :: 
 
-<img src="../photometry-setup.png" class="opacity-100"/>
+<img src="/photometry-setup.png" class="opacity-100"/>
 
 ---
 transition: slide-left
@@ -143,17 +143,17 @@ clicks: 1
 
 <div class="flex gap-4 justify-center">
 
-<img src="../regression_model_schematic_v2.svg" class="opacity-100 w-1/2"/>
+<img src="/regression_model_schematic_v2.svg" class="opacity-100 w-1/2"/>
 
 <div class="w-1/2"> 
 
-<template v-if="$clicks === 0"> <img src="../regression_model_example_fits_w_pupil_v2.svg" class="w-full" /> 
+<template v-if="$clicks === 0"> <img src="/regression_model_example_fits_w_pupil_v2.svg" class="w-full" /> 
 </template> 
 
 <template v-else> 
 <div class="flex gap-4 justify-center">
-<img src="../regression_photometry_model007_ev_v3.svg" class="w-[50%]" /> 
-<img src="../regression_photometry_delta_ev_state_model005_w_pupil_model004_v3.svg" class="w-[50%]" /> 
+<img src="/regression_photometry_model007_ev_v3.svg" class="w-[50%]" /> 
+<img src="/regression_photometry_delta_ev_state_model005_w_pupil_model004_v3.svg" class="w-[50%]" /> 
 </div>
 </template> 
 
@@ -178,9 +178,9 @@ transition: slide-left
 
 <div class="flex gap-4 justify-center">
 
-<img src="../pupil-cross-correlation-plain.svg" class="opacity-100 w-[40%]"/>
+<img src="/pupil-cross-correlation-plain.svg" class="opacity-100 w-[40%]"/>
 
-<img src="../regression_photometry_w_pupil_model005_ev.svg" class="opacity-100 w-[40%]"/>
+<img src="/regression_photometry_w_pupil_model005_ev.svg" class="opacity-100 w-[40%]"/>
 
 </div>
 
@@ -244,19 +244,19 @@ clicks: 5
 
 <div class="flex justify-center">
   <template v-if="$clicks === 0">
-    <img src="../task_animation_1.png" class="opacity-100 w-[50%]" />
+    <img src="/task_animation_1.png" class="opacity-100 w-[50%]" />
   </template>
   <template v-else-if="$clicks === 1">
-    <img src="../task_animation_2.png" class="opacity-100 w-[50%]" />
+    <img src="/task_animation_2.png" class="opacity-100 w-[50%]" />
   </template>
   <template v-else-if="$clicks === 2">
-    <img src="../task_animation_3.png" class="opacity-100 w-[50%]" />
+    <img src="/task_animation_3.png" class="opacity-100 w-[50%]" />
   </template>
   <template v-else-if="$clicks === 3">
-    <img src="../task_animation_4.png" class="opacity-100 w-[50%]" />
+    <img src="/task_animation_4.png" class="opacity-100 w-[50%]" />
   </template>
   <template v-else>
-    <img src="../task_animation_5.png" class="opacity-100 w-[50%]" />
+    <img src="/task_animation_5.png" class="opacity-100 w-[50%]" />
   </template>
 </div>
 
@@ -280,7 +280,7 @@ transition: slide-left
 
 
 <div class="pt-30">
-<img src="../multiplayer_MP_training_stages.svg" class="opacity-100 w-[100%]"/>
+<img src="/multiplayer_MP_training_stages.svg" class="opacity-100 w-[100%]"/>
 </div>
 
 
@@ -351,7 +351,7 @@ onMounted(() => {
 
 <video
   id="myvideo"
-  src="./animation.mp4"
+  src="/animation.mp4"
   controls
   preload="auto"
   class="w-[100%] mx-auto"
@@ -372,9 +372,9 @@ class: flex flex-col justify-center
 
 
 
-<img src="../JOA-M-0029_JOA-M-0033_smoothed_reward_rate_multiplayer.png" class="opacity-100 w-[80%]"/>
+<img src="/JOA-M-0029_JOA-M-0033_smoothed_reward_rate_multiplayer.png" class="opacity-100 w-[80%]"/>
 
-<img src="../JOA-M-0029_JOA-M-0033_entropy_multiplayer.png" class="opacity-100 w-[81%]"/>
+<img src="/JOA-M-0029_JOA-M-0033_entropy_multiplayer.png" class="opacity-100 w-[81%]"/>
 
 
 ---
@@ -391,9 +391,9 @@ class: flex flex-col justify-center
 :: content ::
 
 
-<img src="../JOA-M-0029_reward_and_entropy_during_solo_vs_social.png" class="opacity-100 w-[75%]"/>
+<img src="/JOA-M-0029_reward_and_entropy_during_solo_vs_social.png" class="opacity-100 w-[75%]"/>
 
-<img src="../JOA-M-0033_reward_and_entropy_during_solo_vs_social.png" class="opacity-100 w-[75%]"/>
+<img src="/JOA-M-0033_reward_and_entropy_during_solo_vs_social.png" class="opacity-100 w-[75%]"/>
 
 
 
