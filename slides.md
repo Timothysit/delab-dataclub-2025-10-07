@@ -93,10 +93,9 @@ layout: default
 
 
 <div class="ml-20 mt-5">
-<img src="/mouse_example_choices_1.svg" class="opacity-100 w-[80%]"/>
+<img src="/mouse_example_choices_2.png" class="opacity-100 w-[80%] mb-8" v-click="1"/>
 
-
-<img src="/LearningSummary_cosyneabstract2025_2.svg" class="opacity-100 w-[90%]"/>
+<img src="/learning_summary_horizontal.png" class="opacity-100 w-[90%]" v-click="2"/>
 </div>
 
 
@@ -110,12 +109,12 @@ layout: default
 
 
 
-<img src="/GLM-HMM-cartoon_v1.svg" class="opacity-100 w-[50%]"/>
+<img src="/GLM-HMM-cartoon_v1.svg" class="opacity-100 w-[50%]" v-click="1"/>
 
-<img src="/clustered_glm_weights_cosyneabstract2025.svg" class="opacity-100 w-[60%]"/>
+<img src="/clustered_glm_weights_cosyneabstract2025.svg" class="opacity-100 w-[60%]" v-click="2"/>
 
 
-<div v-click class="absolute top-[55%] left-150 w-[70%] -translate-y-1/2">
+<div v-click="3" class="absolute top-[55%] left-150 w-[70%] -translate-y-1/2">
   <img src="/average_pstate_smooth_cosyneabstract2025.svg" class="opacity-100 w-[50%]"/>
 </div>
 
@@ -264,13 +263,13 @@ clicks: 3
 <div
   v-click="2"
   class="absolute bottom-5 left-40 transition-opacity duration-500 delay-500">
-  <img src="/regression_photometry_model007_ev_v3.svg" class="w-60 h-auto" />
+  <img src="/regression_model_without_task_or_reward.png" class="w-[35%] h-auto" />
 </div>
 
 <div
   v-click="3"
   class="absolute bottom-0 right-30 transition-opacity duration-500 delay-500">
-  <img src="/regression_photometry_delta_ev_state_model008_w_pupil_model005_v6.svg" class="w-100 h-auto" />
+  <img src="/delta_ev_over_time.png" class="w-100 h-auto" />
 </div>
 
 
@@ -284,7 +283,7 @@ transition: fade
 ---
 
 :: title :: 
-# Can the neuromodulator response be explained by pupil?
+# Can pupil explain the neuromodulator responses?
 
 
 :: content :: 
@@ -427,9 +426,7 @@ clicks: 5
 
 
 ---
-layout: top-title-two-cols
-columns: is-8
-align: l-lm-lm
+layout: top-title
 color: sky 
 transition: fade
 ---
@@ -439,10 +436,10 @@ transition: fade
 # Multiplayer matching pennies traning protocol
 
 
-:: left :: 
+:: content :: 
 
 
-<div class="pt-30">
+<div class="pt-15">
   <div class="relative w-full">
 
   <img src="/multiplayer_MP_training_stages.svg" class="opacity-0 w-full" />
@@ -467,10 +464,8 @@ transition: fade
 </div>
 
 
-:: right ::
 
-
-<div v-click="4" class="pt-30">
+<div v-click="4" class="pt-10">
 
  - Pair 1 : Trained with computer for a few days, then play against each other
  - Pair 2 : Trained to MP experts, will play against each other
@@ -764,8 +759,7 @@ loop: true
 <div class="grid-item text-right mr-4 col-span-1"><strong>Mice</strong></div>
 <div class="grid-item col-span-2">JOA-M-0020<br/>JOA-M-0022<br/>JOA-M-0023<br/>JOA-M-0024<br/>JOA-M-0025<br/>JOA-M-0026<br/>JOA-M-0027<br/>JOA-M-0028<br/>JOA-M-0029<br/>JOA-M-0030<br/>JOA-M-0031<br/>JOA-M-0033<br/>JOA-M-0036</div>
 <div class="grid-item text-right mr-4 col-span-1"><strong>Supervision</strong></div>
-<div class="grid-item col-span-2">Ann<br/>
-Jeff</div>
+<div class="grid-item col-span-2">Ann</div>
 <div class="grid-item col-span-3 text-center mt-80px mb-auto font-size-1.5rem"><strong>The end</strong></div>
 </div>
 
